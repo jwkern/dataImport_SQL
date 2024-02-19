@@ -25,7 +25,7 @@ RUNNING THE CODE:
 1) Download the diabetes data (diabetic_data.csv) and the SQL script (dataImport_JWK.sql)
 2) In a terminal, cd into the directory that now contains the data and the script
 3) In dataImport_JWK.sql, change the file path on line 69 from "/home/jwkern/Downloads/" to point to your local directory containing diabetic_data.csv
-4) Run the script by typing the following into the command line: "mysql -u username -p password" (P.S. do not include the quotation marks, and change the username and password to your mySQL credentials)
+4) Run the script by typing the following into the command line: "mysql --local-infile=1 -u username -p password" (P.S. do not include the quotation marks, and change the username and password to your mySQL credentials)
    ___________________________________________________________________________________________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________________________________________
